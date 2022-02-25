@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome</h1>
+    </header>
+    <section class="main_body">
+        <div class="form">
+            <label for="pid">PID</label><input type="text" id="pid"><br>
+            <label for="pname">pname</label><input type="text" id="pname"><br>
+            <label for="price">price</label><input type="text" id="price"><br>
+            <button id="addlocal">ADD into Local Storage</button>
+            <button id="addsession">ADD into Session Storage</button><br><hr>
+        </div>
+        <button id="getProductslocal">Get Products from local</button><br>
+        <button id="getProductssession">Get Products from sesion</button><br>
+        <ol id="showLocalRecords"></ol>
+        <ol id="showSessionRecords"></ol><hr>
+    </section>
+    <footer>
+        MASTEK&copy;2022
+    </footer>
+</body>
+<script src="jquery-3.6.0.js"></script>
+<script src="main.js"></script>
+</html>
